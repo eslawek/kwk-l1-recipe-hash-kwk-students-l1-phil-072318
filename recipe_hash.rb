@@ -47,17 +47,17 @@ end
 recipe_ingredients()
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
-def amount_of_chocolate_chips(perfect_10_recipe)
+def amount_of_chocolate_chips(chocolate)  #7
+   cookies = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>"1/2 teaspoon", :baking_powder=>"1/2 teaspoon", :baking_soda=>"1/4 teaspoon", :Xanthan_Gum=>"1/2 teaspoon", :slivered_almonds=>"1/4 cup", :mini_dark_chocolate_chips=>"3/4 cup", :olive_oil=>"1/2 cup", :agave=>"1/4 cup"}
   
-  
-  perfect_10_recipe_hash = {}
-  index = 0
-  
-  INGREDIENTS.each do |food|
-    perfect_10_recipe_hash[perfect_10_recipe] = MEASUREMENTS[index]
-    index += 1
+    food = cookies[7].keys
+    number = cookies[7].values
+    
+  cookies.each do |food, number|
+  puts "#{food}: #{number}"
+
   end
-  puts perfect_10_recipe_hash
+  puts perfect_10_recipe_hash(chocolate)
   
 end
 
