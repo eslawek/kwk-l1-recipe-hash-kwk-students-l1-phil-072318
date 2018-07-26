@@ -3,6 +3,8 @@ INGREDIENTS = [:almond_flour, :gluten_freewhole_oats, :kosher_salt, :baking_powd
 
 MEASUREMENTS = ["2 cups", "1 cup", "1/2 teaspoon", "1/2 teaspoon", "1/4 teaspoon", "1/2 teaspoon", "1/4 cup", "3/4 cup", "1/2 cup", "1/4 cup"]
 HASH = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>"1/2 teaspoon", :baking_powder=>"1/2 teaspoon", :baking_soda=>"1/4 teaspoon", :Xanthan_Gum=>"1/2 teaspoon", :slivered_almonds=>"1/4 cup", :mini_dark_chocolate_chips=>"3/4 cup", :olive_oil=>"1/2 cup", :agave=>"1/4 cup"}
+
+
 #1. Create a hash called `perfect_10_recipe` that has the following data:
 #  - almond flour - 2 cups
 #  - gluten freewhole oats - 1 cup
@@ -40,6 +42,7 @@ end
 
 def ingredients_and_amounts
   cookies = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>"1/2 teaspoon", :baking_powder=>"1/2 teaspoon", :baking_soda=>"1/4 teaspoon", :Xanthan_Gum=>"1/2 teaspoon", :slivered_almonds=>"1/4 cup", :mini_dark_chocolate_chips=>"3/4 cup", :olive_oil=>"1/2 cup", :agave=>"1/4 cup"}
+  
     food = cookies.keys
     number = cookies.values
     
