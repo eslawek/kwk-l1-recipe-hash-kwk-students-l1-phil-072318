@@ -52,7 +52,7 @@ def amount_of_chocolate_chips  #7
     
     puts cookies[7]
 
-  end
+  
 end
 amount_of_chocolate_chips
 
