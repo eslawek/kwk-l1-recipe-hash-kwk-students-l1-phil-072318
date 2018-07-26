@@ -32,19 +32,19 @@ HASH = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>
 
 # #2. Write a method that simply returns (not puts) your perfect_10 hash
 
-# def recipe_ingredients
+def recipe_ingredients
 
-#   perfect_10_recipe_hash = {}
-#   index = 0
+  perfect_10_recipe_hash = {}
+  index = 0
   
-#   INGREDIENTS.each do |food|
-#     perfect_10_recipe_hash[food] = MEASUREMENTS[index]
-#     index += 1
-#   end
-#   return perfect_10_recipe_hash
-# end
+  INGREDIENTS.each do |food|
+    perfect_10_recipe_hash[food] = MEASUREMENTS[index]
+    index += 1
+  end
+  return perfect_10_recipe_hash
+end
 
-# recipe_ingredients()
+recipe_ingredients()
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 
@@ -58,17 +58,17 @@ amount_of_chocolate_chips
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
 
-# def ingredients_and_amounts
-#   cookies = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>"1/2 teaspoon", :baking_powder=>"1/2 teaspoon", :baking_soda=>"1/4 teaspoon", :Xanthan_Gum=>"1/2 teaspoon", :slivered_almonds=>"1/4 cup", :mini_dark_chocolate_chips=>"3/4 cup", :olive_oil=>"1/2 cup", :agave=>"1/4 cup"}
+def ingredients_and_amounts
+  cookies = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>"1/2 teaspoon", :baking_powder=>"1/2 teaspoon", :baking_soda=>"1/4 teaspoon", :Xanthan_Gum=>"1/2 teaspoon", :slivered_almonds=>"1/4 cup", :mini_dark_chocolate_chips=>"3/4 cup", :olive_oil=>"1/2 cup", :agave=>"1/4 cup"}
   
-#     food = cookies.keys
-#     number = cookies.values
+    food = cookies.keys
+    number = cookies.values
     
-#   cookies.each do |food, number|
-#   puts "#{food}: #{number}"
-#   end 
-# end
-# ingredients_and_amounts
+  cookies.each do |food, number|
+  puts "#{food}: #{number}"
+  end 
+end
+ingredients_and_amounts
 
 #4: Now use `puts` to print out just the ingredients without the amounts. You'll want to use the `each_key` method.
 def ingredients(perfect_10_recipe)
