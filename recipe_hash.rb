@@ -54,7 +54,7 @@ def amount_of_chocolate_chips  #7
     number = cookies[7]
     
   cookies.each do |amount_choco|
-  puts "amount_choco"
+  puts "#{amount_choco"
 
   end
   puts perfect_10_recipe_hash
