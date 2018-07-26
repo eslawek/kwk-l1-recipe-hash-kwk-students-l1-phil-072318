@@ -50,8 +50,8 @@ recipe_ingredients()
 def amount_of_chocolate_chips  #7
    cookies = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>"1/2 teaspoon", :baking_powder=>"1/2 teaspoon", :baking_soda=>"1/4 teaspoon", :Xanthan_Gum=>"1/2 teaspoon", :slivered_almonds=>"1/4 cup", :mini_dark_chocolate_chips=>"3/4 cup", :olive_oil=>"1/2 cup", :agave=>"1/4 cup"}
     
-    food = cookies[7].keys
-    number = cookies[7].values
+    food = cookies[7].key
+    number = cookies[7].value
     
   cookies.each do |food, number|
   puts "#{food}: #{number}"
