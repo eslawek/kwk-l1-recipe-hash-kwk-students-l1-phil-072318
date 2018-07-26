@@ -53,7 +53,7 @@ def amount_of_chocolate_chips  #7
     food = cookies[7]
     
     
-  food.each do |amount_choco|
+  cookies[7].each do |amount_choco|
   puts "#{amount_choco}"
 
   end
