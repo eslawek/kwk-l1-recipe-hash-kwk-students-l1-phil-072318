@@ -18,17 +18,17 @@ HASH = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>
 # #  - agave - 1/4 cup
 # # All of the ingredients should be symbols and the amounts should be strings. Remember that symbols start with a colon and be sure to sub underscores for spaces.
 
-# def recipe
-#   perfect_10_recipe_hash = {}
-#   index = 0
+def recipe
+  perfect_10_recipe_hash = {}
+  index = 0
   
-#   INGREDIENTS.each do |food|
-#     perfect_10_recipe_hash[food] = MEASUREMENTS[index]
-#     index += 1
-#   end
-#   puts perfect_10_recipe_hash
-# end
-# recipe
+  INGREDIENTS.each do |food|
+    perfect_10_recipe_hash[food] = MEASUREMENTS[index]
+    index += 1
+  end
+  puts perfect_10_recipe_hash
+end
+recipe
 
 # #2. Write a method that simply returns (not puts) your perfect_10 hash
 
@@ -44,7 +44,7 @@ def recipe_ingredients
   return perfect_10_recipe_hash
 end
 
-recipe_ingredients()
+recipe_ingredients
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 
