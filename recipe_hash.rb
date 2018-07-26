@@ -47,7 +47,7 @@ def ingredients_and_amounts
     number = cookies.values
     
   cookies.each do |food, number|
-  puts "#{food}: #{quatities}"
+  puts "#{food}: #{number}"
   end 
 end
 ingredients_and_amounts
