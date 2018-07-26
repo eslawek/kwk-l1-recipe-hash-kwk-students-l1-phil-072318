@@ -45,11 +45,11 @@ def recipe_ingredients
 end
 
 recipe_ingredients()
-
+CHOCOLATE = cookies[7]
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
 def amount_of_chocolate_chips(chocolate)  #7
    cookies = {:almond_flour=>"2 cups", :gluten_freewhole_oats=>"1 cup", :kosher_salt=>"1/2 teaspoon", :baking_powder=>"1/2 teaspoon", :baking_soda=>"1/4 teaspoon", :Xanthan_Gum=>"1/2 teaspoon", :slivered_almonds=>"1/4 cup", :mini_dark_chocolate_chips=>"3/4 cup", :olive_oil=>"1/2 cup", :agave=>"1/4 cup"}
-    $chocolate = cookies[7]
+    
     food = cookies[7].keys
     number = cookies[7].values
     
@@ -59,7 +59,7 @@ def amount_of_chocolate_chips(chocolate)  #7
   end
   puts perfect_10_recipe_hash
 end
-amount_of_chocolate_chips($chocolate)
+amount_of_chocolate_chips(CHOCOLATE)
 
 
 #3: Use `puts` to print out every ingredient and amount in the hash by iterating through the collection. You'll want to use the `each` method.
