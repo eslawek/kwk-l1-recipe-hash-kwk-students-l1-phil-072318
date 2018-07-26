@@ -32,9 +32,17 @@ recipe
 
 #2. Write a method that simply returns (not puts) your perfect_10 hash
 def recipe_ingredients(perfect_10_recipe)
+
+  perfect_10_recipe_hash = {}
+  index = 0
   
+  INGREDIENTS.each do |food|
+    perfect_10_recipe_hash[food] = MEASUREMENTS[index]
+    index += 1
+  end
+  return perfect_10_recipe_hash
   
-  
+  return 
 end
 
 #2: Write code that returns the amount of chocolate chips from perfect_10 ingredients that is needed in the recipe.
