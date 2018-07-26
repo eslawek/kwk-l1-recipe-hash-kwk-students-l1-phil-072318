@@ -99,3 +99,4 @@ def number_ingredients
   puts cookies.size
   
 end
+number_ingredients
