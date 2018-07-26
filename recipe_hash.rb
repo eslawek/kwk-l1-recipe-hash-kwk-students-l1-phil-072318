@@ -57,7 +57,6 @@ def amount_of_chocolate_chips  #7
   puts "#{amount_choco}"
 
   end
-  puts perfect_10_recipe_hash
 end
 amount_of_chocolate_chips
 
